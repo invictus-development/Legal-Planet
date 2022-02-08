@@ -88,6 +88,7 @@ a {
   font-size: 14px;
   text-transform: uppercase;
   padding: 4px 0px;
+  font-weight: 600;
 }
 .header_area .mainmenu .active a, .header_area .mainmenu .active a:focus, .header_area .mainmenu .active a:hover, .header_area .mainmenu li a:hover, .header_area .mainmenu li a:focus, .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
   color: #0071ba;
@@ -140,11 +141,11 @@ a {
 /******************************Drop-down menu work on hover**********************************/
 .mainmenu {
   background: none;
-  border: 0 solid;
-  margin: 0;
-  padding: 0;
-  padding-top: 33px;
-  z-index: 99;
+    border: 0 solid;
+    margin: 0 !important;
+    padding: 2%;
+    /* padding-top: 33px; */
+    z-index: 99;
 }
 .logo2020{
   float: right;
@@ -579,7 +580,8 @@ a {
   background: #f4f4f4;
   border-bottom: 5px solid #2c3240;
   float: left;
-  margin: 0 9px;
+  width: 25%;
+  margin: 0 11% 0 13%;
 }
 .pro-text {
   color: #2c3242;
@@ -831,7 +833,7 @@ select option {
   border-radius: 2px;
   padding: 12px 25px;
   font-weight: bold;
-  border: 1px solid #2c3242;
+  border: 1px solid #2c3242 !important;
   background: transparent;
   text-align: center;
   -webkit-transition: 0.5s;
@@ -928,6 +930,7 @@ select option {
   position: relative;
   width: 0%;
   min-width: 52px;
+  margin: -1% 0 !important;
   height: 49px;
   overflow: hidden;
   -webkit-transition: width 1s;
@@ -1535,10 +1538,6 @@ select option {
   background: #fff;
   transition: 0.2s;
 }
-
-.sticky .box-main {
-  margin-top: 8px;
-}
 .sticky .mainmenu {
   padding-top: 20px;
 }
@@ -1690,4 +1689,11 @@ padding: 10px 10px 15px;
 
 .logo-text {
   font-size: 22px !important;
+}
+.co-founders .prtnr-box {
+  margin: 1% 10% 2% 15%;
+}
+.four-spacing .line {
+  margin: 7% -12%;
+  width: 125%;
 }

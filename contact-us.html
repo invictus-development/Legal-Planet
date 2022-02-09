@@ -14,7 +14,7 @@
 <link rel="stylesheet" href="css/ani.css">
 <link rel="stylesheet" href="css/pop.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> -->
 </head>
 
 <body>
@@ -84,7 +84,7 @@
 				<div class="form-group pull-right" id="search">
 				<input name="search" type="search" autofocus class="form-control" placeholder="Search">
 				<input type="hidden" name="button" valus="submit" id="btn_search" class="form-control form-control-submit">
-				<span class="search-label"><i class="glyphicon glyphicon-search"></i></span> </div>
+				<span class="search-label"><i class="fa fa-search"></i></span> </div>
 			  </form> 
 			  </div>
 			</div>
@@ -131,7 +131,104 @@
           <div class="row">
 			<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
         <div class="p-heading"><h4>Get in Touch</h4></div>
-		<script type="text/javascript" src="https://form.jotform.com/jsform/220382816854460"></script>
+		
+		
+		<iframe
+		id="JotFormIFrame-220392988630059"
+		title="Form"
+		onload="window.parent.scrollTo(0,0)"
+		allowtransparency="true"
+		allowfullscreen="true"
+		allow="geolocation; microphone; camera"
+		src="https://form.jotform.com/220392988630059"
+		frameborder="0"
+		style="
+		min-width: 100%;
+		height:539px;
+		border:none;"
+		scrolling="no"
+	  >
+	  </iframe>
+	  <script type="text/javascript">
+		var ifr = document.getElementById("JotFormIFrame-220392988630059");
+		if (ifr) {
+		  var src = ifr.src;
+		  var iframeParams = [];
+		  if (window.location.href && window.location.href.indexOf("?") > -1) {
+			iframeParams = iframeParams.concat(window.location.href.substr(window.location.href.indexOf("?") + 1).split('&'));
+		  }
+		  if (src && src.indexOf("?") > -1) {
+			iframeParams = iframeParams.concat(src.substr(src.indexOf("?") + 1).split("&"));
+			src = src.substr(0, src.indexOf("?"))
+		  }
+		  iframeParams.push("isIframeEmbed=1");
+		  ifr.src = src + "?" + iframeParams.join('&');
+		}
+		window.handleIFrameMessage = function(e) {
+		  if (typeof e.data === 'object') { return; }
+		  var args = e.data.split(":");
+		  if (args.length > 2) { iframe = document.getElementById("JotFormIFrame-" + args[(args.length - 1)]); } else { iframe = document.getElementById("JotFormIFrame"); }
+		  if (!iframe) { return; }
+		  switch (args[0]) {
+			case "scrollIntoView":
+			  iframe.scrollIntoView();
+			  break;
+			case "setHeight":
+			  iframe.style.height = args[1] + "px";
+			  break;
+			case "collapseErrorPage":
+			  if (iframe.clientHeight > window.innerHeight) {
+				iframe.style.height = window.innerHeight + "px";
+			  }
+			  break;
+			case "reloadPage":
+			  window.location.reload();
+			  break;
+			case "loadScript":
+			  if( !window.isPermitted(e.origin, ['jotform.com', 'jotform.pro']) ) { break; }
+			  var src = args[1];
+			  if (args.length > 3) {
+				  src = args[1] + ':' + args[2];
+			  }
+			  var script = document.createElement('script');
+			  script.src = src;
+			  script.type = 'text/javascript';
+			  document.body.appendChild(script);
+			  break;
+			case "exitFullscreen":
+			  if      (window.document.exitFullscreen)        window.document.exitFullscreen();
+			  else if (window.document.mozCancelFullScreen)   window.document.mozCancelFullScreen();
+			  else if (window.document.mozCancelFullscreen)   window.document.mozCancelFullScreen();
+			  else if (window.document.webkitExitFullscreen)  window.document.webkitExitFullscreen();
+			  else if (window.document.msExitFullscreen)      window.document.msExitFullscreen();
+			  break;
+		  }
+		  var isJotForm = (e.origin.indexOf("jotform") > -1) ? true : false;
+		  if(isJotForm && "contentWindow" in iframe && "postMessage" in iframe.contentWindow) {
+			var urls = {"docurl":encodeURIComponent(document.URL),"referrer":encodeURIComponent(document.referrer)};
+			iframe.contentWindow.postMessage(JSON.stringify({"type":"urls","value":urls}), "*");
+		  }
+		};
+		window.isPermitted = function(originUrl, whitelisted_domains) {
+		  var url = document.createElement('a');
+		  url.href = originUrl;
+		  var hostname = url.hostname;
+		  var result = false;
+		  if( typeof hostname !== 'undefined' ) {
+			whitelisted_domains.forEach(function(element) {
+				if( hostname.slice((-1 * element.length - 1)) === '.'.concat(element) ||  hostname === element ) {
+					result = true;
+				}
+			});
+			return result;
+		  }
+		};
+		if (window.addEventListener) {
+		  window.addEventListener("message", handleIFrameMessage, false);
+		} else if (window.attachEvent) {
+		  window.attachEvent("onmessage", handleIFrameMessage);
+		}
+		</script>
     </div>
 
 	<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
@@ -142,11 +239,13 @@
 		<span><b>Delhi Office</b><br />
 		S-529, 2nd Floor, School Block<br />
 		Shakarpur, Laxminagar<br />
-		Delhi-92</span></p>
-	<p>
-		<span>(Opp. laxminagar Metro Station, Gate No.: 2)</span></p>
+		Delhi-92<br>(Opp. Laxminagar Metro Station, Gate No.: 2)</span></p>
 	
-		<span><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="bedadbd2d6d7feced6d1dbd0d7c6d2dbd9dfd290d7d0">[email&#160;protected]</a></span></p>
+		<p>
+			<span>9015086525</span></p>
+		<p>
+			<span>legalplanet21.gmail.com</span></p>
+		
 </div>
 <div class="address">
 	<p>
@@ -158,8 +257,7 @@
 		<span>9015086525</span></p>
 	<p>
 		<span>legalplanet21.gmail.com</span></p>
-	<p>
-		<span><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="bedadbd2d6d7feced6d1dbd0d7c6d2dbd9dfd290d7d0">[email&#160;protected]</a></span></p>
+	
 </div>
 <div class="address">
 	<p>
@@ -170,9 +268,8 @@
 	<p>
 		<span>9415630464</span></p>
 	<p>
-		<span>9015086525</span></p>
-	<p>
-		<span><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="3459415956555d74445c5b515a5d4c58515355581a5d5a">[email&#160;protected]</a></span></p>
+		<span>legalplanet21.gmail.com</span></p>
+	
 </div>
 		  
 		
@@ -195,7 +292,7 @@
 <section>
 		<div class="map-view">
       		<!-- <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1Ru9uNeLj26a4nytmFOKzpFPfLj9519-h" width="100%" height="480"></iframe> -->
-			  <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1FnOYcPaZ8wlKsUc8ozpYOy91AHGD-vQb&ehbc=2E312F" width="100%" height="480" style="margin-top: -55px;"></iframe>
+			  <iframe src="https://www.google.com/maps/d/u/3/embed?mid=1raWAvV0v5Es8KIaeLaQ5l97qRMpmXLAz&ehbc=2E312F" width="100%" height="480"></iframe>
 		</div>
 	</section>
 

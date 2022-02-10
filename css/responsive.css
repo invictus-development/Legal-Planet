@@ -698,3 +698,24 @@
 
 	
 }
+@media only screen and (max-width: 480px) {
+  .banner img {
+    height: 400px !important;
+  }
+  .container {
+    width: unset !important;
+  }
+  .four-spacing .line {
+    margin: unset;
+    width: unset;
+  }
+  .footer-tab {
+    margin-top: -15%;
+  }
+  .right .fa {
+    margin-top: 186px;
+  }
+  .left .fa {
+    margin-top: 186px;
+  }
+}

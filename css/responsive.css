@@ -720,5 +720,6 @@
   }
   .prtnr-box {
     width: 100% !important;
+    margin: unset !important;
   }
 }

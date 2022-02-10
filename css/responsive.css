@@ -718,4 +718,7 @@
   .left .fa {
     margin-top: 186px;
   }
+  .prtnr-box {
+    width: 100% !important;
+  }
 }

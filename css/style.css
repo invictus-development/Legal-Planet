@@ -17,7 +17,7 @@ a {
   transition: 0.5s;
 }
 .header-part {
-  border-top: 1px solid #cdaf2b;
+  border-top: 1px solid #ff00009c;
 }
 .container {
   width: 1380px !important;
@@ -32,18 +32,18 @@ a {
   padding-top: 14px;
 }
 .social i {
-  color: #262c3a;
+  color: navajowhite;
   width: 22px;
   height: 22px;
   text-align: center;
   line-height: 22px;
   margin-left: 10px;
   font-size: 16px;
-  background: #cdaf2b;
+  background: #ff00009c;
 }
 .social i:hover {
   background: #fff;
-  color: #b1951a;
+  color: #ff00009c;
 }
 .logo svg
 {
@@ -92,7 +92,7 @@ a {
   background: #0071ba
 }
 .header_area .header_bottom .mainmenu a, .navbar-default .navbar-nav > li > a {
-  color: #7c7d7e;
+  color: #000;
   font-size: 16px;
   text-transform: uppercase;
   padding: 4px 16px;
@@ -272,7 +272,7 @@ a {
 }
 .mrgn-lft {
   margin-left: 40%;
-  margin-top: 30px;
+  margin-top: 110px;
 }
 .banner-line {
   border-bottom: 1px solid #e3e3e3;
@@ -283,12 +283,14 @@ a {
 .page-heading h1 {
   font-size: 30px;
   color: #000;
+  font-weight: 600;
   margin-top: 0px;
   padding-top: 10px;
 }
 .page-heading h1 span {
   font-size: 30px;
   color: #000;
+  font-weight: 600;
   margin-top: 4px;
   padding-top: 0px;
 }
@@ -297,7 +299,7 @@ a {
   color: #000;
   letter-spacing: 3px;
   font-weight: 600;
-  text-shadow: 1px 1px 2px blue;
+  text-shadow: 1px 1px 8px #ff1000;
   margin-top: 0px;
   padding-top: 0px;
   font-family: monospace;
@@ -373,7 +375,7 @@ a {
 }
 .comon-text p a {
   font-size: 14px;
-  color: #d1ac23;
+  color: #ff00009c;
   text-decoration: none;
   padding: 0px;
   margin: 0px;
@@ -448,7 +450,7 @@ a {
 }
 .profile-tab .nav > li.active a {
   font-size: 16px !important;
-  color: #d1ac23 !important;
+  color: #ff00009c !important;
   font-weight: bold !important;
 }
 .profile-tab .tab-content {
@@ -458,6 +460,8 @@ a {
 }
 .news-rpt {
   padding-bottom: 20px;
+  font-size: 16px;
+  line-height: 28px;
 }
 .news-date {
   width: 80px;
@@ -497,9 +501,9 @@ a {
 }
 .page-heading1 span {
   font-size: 28px;
-    /* font-weight: 600; */
+    font-weight: 600;
     color: #000;
-    border-bottom: 1px solid #000;
+    border-bottom: 2px solid #000;
     display: inline-block;
     padding-bottom: 11px;
 }
@@ -570,7 +574,6 @@ a {
 }
 .svr-text {
   font-size: 14px;
-  margin-left: -5%;
 }
 .svr-text p {
   color: #000;
@@ -582,7 +585,7 @@ a {
   line-height: 24px;
   font-style: italic;
   font-weight: bold;
-  color: #4374bc;
+  color: #ff00009c;
 }
 .svr-text a {
   color: #2c3240;
@@ -627,9 +630,9 @@ a {
   font-size: 19px;
   letter-spacing: 3px;
   font-weight: 600;
-  text-shadow: 1px 1px 2px blue;
+  text-shadow: 1px 1px 8px #ff1000;
   font-family: monospace;
-  color: #000;
+  color: #000000;
 }
 .pro-text a {
   font-size: 14px;
@@ -1013,7 +1016,7 @@ select option {
   width: 100%;
 }
 .srch .form-group.sb-search-open .search-label, .srch .no-js .sb-search .search-label {
-  background: #d1ae1c;
+  background-color: #ff00009c;
   color: #fff;
   z-index: 11;
 }
@@ -1107,7 +1110,7 @@ select option {
 }
 .calendar-txt ul li i {
   padding-right: 15px;
-  color: #d1ad22;
+  color: #ff00009c;
 }
 .calendar-txt p {
   font-size: 15px;
@@ -1116,19 +1119,19 @@ select option {
 }
 .calendar-txt a {
   font-size: 15px;
-  color: #ceaf20;
+  color: #ff00009c;
   line-height: 22px;
   text-decoration: none;
   display: inline-block;
-  border: 1px solid #ceaf20;
+  border: 1px solid #ff00009c;
   border-radius: 50px;
   padding: 4px 12px;
   margin-top: 10px;
 }
 .calendar-txt a:hover {
   color: #fff;
-  border: 1px solid #ceaf20;
-  background: #ceaf20;
+  border: 1px solid #ff00009c;
+  background: #ff00009c;
 }
 .middle-prt article {
   margin-bottom: 35px;
@@ -1262,7 +1265,7 @@ select option {
   background: none;
   list-style: none;
   background-color: none;
-  color: #d2ac23;
+  color: #ff00009c;
   font-size: 13px;
 }
 .breadcrumb .breadcrumb-item a {
@@ -1270,10 +1273,10 @@ select option {
   text-decoration: none;
 }
 .breadcrumb .breadcrumb-item a:hover {
-  color: #d2ac23;
+  color: #ff00009c;
 }
 .breadcrumb .breadcrumb-item.active {
-  color: #d2ac23;
+  color: #ff00009c;
 }
 .breadspace {
   padding: 15px 0px;
@@ -1321,13 +1324,13 @@ select option {
   content: "\201c";
   left: 0;
   top: 25px;
-  color: #decb7b;
+  color: #ff00009c;
   font-size: 84px;
 }
 .left-quote blockquote:after {
   content: "\201d";
   bottom: -20px;
-  color: #decb7b;
+  color: #ff00009c;
   font-size: 84px;
 }
 .bread-mrgn {
@@ -1381,7 +1384,7 @@ select option {
   padding: 5px 10px;
 }
 .card-header:hover {
-  background-color: #fdc009;
+  background-color: #ff00009c;
   color: #002539;
 }
 .card button {
@@ -1390,7 +1393,7 @@ select option {
   text-decoration: none;
 }
 .card-header:hover {
-  background-color: #f0ab32;
+  background-color: #ff00009c;
   color: #fff;
 }
 .btn-link {
@@ -1494,8 +1497,8 @@ select option {
   margin: 0px 0 25px;
 }
 .pagination > .active > a {
-  background-color: #ceaf20;
-  border-color: #ceaf20;
+  background-color: #ff00009c;
+  border-color: #ff00009c;
 }
 .box-shadow-career {
   -webkit-box-shadow: 0px 0px 9px 0px rgba(194, 194, 194, 1);
@@ -1562,7 +1565,7 @@ select option {
   z-index: 100;
   border-top: 0;
   transition: 0.3s;
-  border-bottom: 2px solid #0a3380;
+  border-bottom: 2px solid #ff000070;
   border-radius: 0;
   transition: all 0.4s ease-in;
   background: #fff;
@@ -1609,7 +1612,7 @@ select option {
   z-index: 99;
   border: none;
   outline: none;
-  background-color: #cdaf2b;
+  background-color: #ff00009c;
   color: #fff;
   cursor: pointer;
   padding: 8px 14px;
@@ -1637,12 +1640,12 @@ select option {
 	display: inline-block;
 }
 
-.comon-text{
-  color: #11194c;
-    text-decoration: none;
-    font-size: 17px;
-    font-weight: 600;
-    letter-spacing: 0.5px;
+.comon-text {
+  color: #000;
+  text-decoration: none;
+  font-size: 18px;
+  /* font-weight: 600; */
+  letter-spacing: 1.5px;
 }
 
 .news-update .calendar-txt ul {
@@ -1656,7 +1659,7 @@ select option {
 }
 .news-update  .calendar-txt a {
   font-size: 14px;
-  color: #ceaf20;
+  color: #ff00009c;
   line-height: 22px;
   padding: 2px 8px;
   margin-top: 3px;
@@ -1726,8 +1729,9 @@ padding: 10px 10px 15px;
   margin: 2% 10% 3% 15%;
 }
 .four-spacing .line {
-  margin: 7% -12%;
-  width: 125%;
+  margin: 7% 0%;
+  width: 108%;
+  height: 200px;
 }
 .search-label i {
   font-size: 24px;
@@ -1749,4 +1753,19 @@ padding: 10px 10px 15px;
 .left-img-img {
   height: 400px;
     width: 100%;
+}
+.consumer-text {
+  font-size: 16px;
+  line-height: 28px;
+  color: #000;
+}
+.partners-box .prtnr-box {
+  margin: 2% 5%;
+}
+.other-services {
+  float: right;
+  font-size: 20px;
+  font-weight: 600;
+  color: #ff00009c;
+  margin: 2% -12%;
 }

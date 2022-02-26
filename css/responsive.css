@@ -13,6 +13,11 @@
   .line::before {
     padding-bottom: 33%;
   }
+  .banner img {
+    height: 400px !important;
+    width: unset;
+    max-width: unset !important;
+  }
   .mrgn30 {
     margin-bottom: 30px
   }
@@ -701,6 +706,8 @@
 @media only screen and (max-width: 480px) {
   .banner img {
     height: 400px !important;
+    width: unset;
+    max-width: unset !important;
   }
   .container {
     width: unset !important;

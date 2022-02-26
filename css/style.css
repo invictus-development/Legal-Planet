@@ -93,9 +93,9 @@ a {
 }
 .header_area .header_bottom .mainmenu a, .navbar-default .navbar-nav > li > a {
   color: #7c7d7e;
-  font-size: 14px;
+  font-size: 16px;
   text-transform: uppercase;
-  padding: 4px 0px;
+  padding: 4px 16px;
   font-weight: 600;
 }
 .header_area .mainmenu .active a, .header_area .mainmenu .active a:focus, .header_area .mainmenu .active a:hover, .header_area .mainmenu li a:hover, .header_area .mainmenu li a:focus, .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
@@ -116,7 +116,7 @@ a {
   border-bottom: 4px solid #341a00;
 }
 .mainmenu .collapse ul ul > li > a {
-  font-size: 13px;
+  font-size: 14px;
 }
 .mainmenu .collapse ul ul > li:hover > a, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
   background: #f6eedb;
@@ -278,27 +278,29 @@ a {
   border-bottom: 1px solid #e3e3e3;
 }
 .page-heading {
-  margin-bottom: 32px;
+  margin-bottom: 16px;
 }
 .page-heading h1 {
   font-size: 30px;
-  color: #2c3240;
+  color: #000;
   margin-top: 0px;
   padding-top: 10px;
 }
 .page-heading h1 span {
-  font-size: 20px;
-  color: #2c3240;
+  font-size: 30px;
+  color: #000;
   margin-top: 4px;
   padding-top: 0px;
 }
 .profile .page-heading h1 span {
-  font-size: 22px;
-    color: #0f0f3c;
-    font-weight: 600;
-    margin-top: 0px;
-    padding-top: 0px;
-    font-family: monospace;
+  font-size: 24px;
+  color: #000;
+  letter-spacing: 3px;
+  font-weight: 600;
+  text-shadow: 1px 1px 2px blue;
+  margin-top: 0px;
+  padding-top: 0px;
+  font-family: monospace;
 }
 .page-heading span {
   font-size: 20px;
@@ -320,9 +322,10 @@ a {
   padding: 20px 0 10px;
 }
 .left-text p {
-  font-size: 14px;
-  color: #444956;
-  line-height: 24px;
+  font-size: 16px;
+  color: #000;
+  line-height: 28px;
+  font-weight: 500;
   padding-bottom: 15px;
   padding-right: 50px;
   text-align: justify;
@@ -348,9 +351,10 @@ a {
   color: #fff;
 }
 .comon-text p {
-  font-size: 14px;
-  color: #444956;
-  line-height: 24px;
+  font-size: 16px;
+  color: #000;
+  line-height: 28px;
+  font-weight: 300;
   padding-bottom: 4px;
   text-align: justify;
 }
@@ -393,10 +397,11 @@ a {
   text-align: justify;
 }
 .comon-text ul li {
-  font-size: 14px;
-  color: #444956;
+  font-size: 16px;
+  color: #000;
+  font-weight: 300;
   padding-bottom: 5px;
-  line-height: 24px;
+  line-height: 36px;
 }
 .comon-text ul li a {
   font-size: 14px;
@@ -491,11 +496,12 @@ a {
   margin-bottom: 40px;
 }
 .page-heading1 span {
-  font-size: 26px;
-  color: #2c3242;
-  border-bottom: 1px solid #2c3242;
-  display: inline-block;
-  padding-bottom: 11px;
+  font-size: 28px;
+    /* font-weight: 600; */
+    color: #000;
+    border-bottom: 1px solid #000;
+    display: inline-block;
+    padding-bottom: 11px;
 }
 .btm-line1 {
   background: url(../images/bot-line.jpg) no-repeat bottom center;
@@ -567,7 +573,8 @@ a {
   margin-left: -5%;
 }
 .svr-text p {
-  color: #444b53;
+  color: #000;
+  font-size: 15px;
   line-height: 24px;
 }
 .svr-text span {
@@ -601,23 +608,28 @@ a {
   padding-bottom: 10px;
 }
 .pro-text p {
-  font-size: 13px;
+  font-size: 14px;
   color: #000000;
   line-height: 1.4em;
   padding: 12px 0px;
   margin-bottom: 0px;
 }
 .pro-text p span {
-  font-size: 13px;
-  color: #636363;
+  margin-top: 5px;
+  font-size: 14px;
+  color: #000;
   display: block;
+  letter-spacing: unset;
+  text-shadow: none;
   font-weight: bold;
 }
 .pro-text span {
-  font-size: 18px;
-    font-weight: 600;
-    font-family: monospace;
-    color: #100c2e;
+  font-size: 19px;
+  letter-spacing: 3px;
+  font-weight: 600;
+  text-shadow: 1px 1px 2px blue;
+  font-family: monospace;
+  color: #000;
 }
 .pro-text a {
   font-size: 14px;
@@ -666,8 +678,8 @@ a {
   padding: 0 260px;
 }
 .view p {
-  font-size: 26px;
-  color: #252c36;
+  font-size: 28px;
+  color: #000;
   line-height: 40px;
   font-style: italic;
 }
@@ -679,6 +691,7 @@ a {
 .view span {
   font-size: 15px;
   padding: 0 275px;
+  color: #000;
   display: inline-block;
   padding: 0px 115px;
 }
@@ -727,7 +740,7 @@ select option {
   text-align: left;
 }
 .bottom-link h4 {
-  font-size: 18px;
+  font-size: 20px;
   color: #fff;
   padding: 15px 0 0px 0px;
 }
@@ -767,7 +780,7 @@ select option {
 .bottom-link ul li a {
   margin: 0;
   padding: 0;
-  font-size: 12px;
+  font-size: 13px;
   color: #c9c9c9;
   line-height: 20px;
 }
@@ -797,7 +810,7 @@ select option {
 .bottom-link-last p {
   text-align: center;
   padding-bottom: 0px;
-  font-size: 11px;
+  font-size: 12px;
   color: #c9c9c9;
 }
 .bodr {
@@ -821,14 +834,14 @@ select option {
   padding: 3px 10px;
   display: inline-block;
   text-align: center;
-  font-size: 12px;
+  font-size: 14px;
   color: #c9c9c9;
 }
 .bottom-navi ul li a {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  font-size: 12px;
+  font-size: 14px;
   color: #c9c9c9;
   line-height: 20px;
 }
@@ -841,6 +854,7 @@ select option {
 }
 .bottom-navi p a {
   color: #c9c9c9;
+  font-size: 13px;
 }
 .btn-dark {
   color: #2c3242;
@@ -1447,9 +1461,9 @@ select option {
   padding: 10px 10px 0px;
 }
 .class-time-text p {
-  font-size: 14px;
-  color: #444956;
-  line-height: 22px;
+  font-size: 16px;
+  color: #000;
+  line-height: 27px;
   text-align: justify;
 }
 .count-box {
@@ -1525,8 +1539,9 @@ select option {
   padding: 0px 0px 15px;
 }
 .prtnr-dtl p {
-  font-size: 14px;
-  color: #444956;
+  font-size: 15px;
+  line-height: 28px;
+  color: #000;
   display: table;
 }
 .prtnr-dtl p a {
@@ -1705,7 +1720,7 @@ padding: 10px 10px 15px;
 }
 
 .logo-text {
-  font-size: 22px !important;
+  font-size: 24px !important;
 }
 .co-founders .prtnr-box {
   margin: 1% 10% 2% 15%;

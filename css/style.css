@@ -1803,7 +1803,10 @@ padding: 10px 10px 15px;
   z-index: 999;
   color: #fff;
   font-size: 132px;
-  font-weight: 600;
+  letter-spacing: 5px;
+  font-weight: 750;
+  font-family: unset;
+  text-align: justify;
 }
 .blank-placeholder {
   height: 232px !important;

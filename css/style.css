@@ -72,7 +72,7 @@ a {
   margin-right: 0px;
 }
 .navbar-nav > li {
-  margin-left: 20px;
+  margin-left: 42px;
 }
 .dropdown-menu {
   padding: 0px 0;
@@ -92,7 +92,7 @@ a {
   background: #0071ba
 }
 .header_area .header_bottom .mainmenu a, .navbar-default .navbar-nav > li > a {
-  color: #000;
+  color: #6A040F;
   font-size: 16px;
   text-transform: uppercase;
   padding: 4px 16px;
@@ -282,27 +282,27 @@ a {
 }
 .page-heading h1 {
   font-size: 30px;
-  color: #000;
+  color: #6A040F;
   font-weight: 600;
   margin-top: 0px;
   padding-top: 10px;
 }
 .page-heading h1 span {
   font-size: 30px;
-  color: #000;
+  color: #6A040F;
   font-weight: 600;
   margin-top: 4px;
   padding-top: 0px;
 }
 .profile .page-heading h1 span {
   font-size: 24px;
-  color: #000;
+  color: #6A040F;
   letter-spacing: 3px;
-  font-weight: 600;
-  text-shadow: 1px 1px 8px #ff1000;
+  font-weight: 750;
+  /* text-shadow: 1px 1px 8px #ff1000; */
   margin-top: 0px;
   padding-top: 0px;
-  font-family: monospace;
+  font-family: futura;
 }
 .page-heading span {
   font-size: 20px;
@@ -502,8 +502,8 @@ a {
 .page-heading1 span {
   font-size: 28px;
     font-weight: 600;
-    color: #000;
-    border-bottom: 2px solid #000;
+    color: #6A040F;
+    border-bottom: 2px solid #6A040F;
     display: inline-block;
     padding-bottom: 11px;
 }
@@ -627,12 +627,13 @@ a {
   font-weight: bold;
 }
 .pro-text span {
-  font-size: 19px;
+  font-size: 24px;
   letter-spacing: 3px;
-  font-weight: 600;
-  text-shadow: 1px 1px 8px #ff1000;
-  font-family: monospace;
-  color: #000000;
+  font-weight: 750;
+  letter-spacing: 1px;
+  /* text-shadow: 1px 1px 8px #ff1000; */
+  font-family: futura;
+  color: #6A040F;
 }
 .pro-text a {
   font-size: 14px;
@@ -1768,4 +1769,49 @@ padding: 10px 10px 15px;
   font-weight: 600;
   color: #ff00009c;
   margin: 2% -12%;
+}
+.banner-title h3 {
+  position: absolute;
+  float: left;
+  font-size: 140px;
+  color: #f23434;
+  margin: -27% 26%;
+  font-weight: 600;
+  z-index: 999;
+  text-align: justify;
+}
+.banner-title h4 {
+  margin: -10% 27%;
+  position: absolute;
+  z-index: 999;
+  color: #fff;
+  font-size: 54px;
+}
+.banner-title-3 h3 {
+  position: absolute;
+  float: left;
+  font-size: 120px;
+  color: #fff;
+  margin: -26% 44%;
+  font-weight: 600;
+  z-index: 999;
+  text-align: justify;
+}
+.banner-title-4 h3 {
+  POSITION: ABSOLUTE;
+  margin: -22% 31%;
+  z-index: 999;
+  color: #fff;
+  font-size: 132px;
+  font-weight: 600;
+}
+.blank-placeholder {
+  height: 232px !important;
+  max-width: unset;
+  margin: 0 -10%;
+  width: 362px !important;
+}
+.img-shrink {
+  height: 609px !important;
+    margin: -31% 0;
 }

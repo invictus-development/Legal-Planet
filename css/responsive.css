@@ -15,7 +15,7 @@
   }
   .banner img {
     height: 400px !important;
-    width: unset;
+    width: 100%;
     max-width: unset !important;
   }
   .mrgn30 {

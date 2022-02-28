@@ -1822,3 +1822,9 @@ padding: 10px 10px 15px;
   height: 609px !important;
     margin: -31% 0;
 }
+.banner-title-8 h3 {
+  display: none;
+}
+.picless-section {
+  margin: 3% 3%;
+}

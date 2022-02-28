@@ -733,6 +733,7 @@
   .banner-title-4 h3 {
     margin: -109% 2% !important;
     font-size: 53px;
+    text-align: justify !important;
   }
   .banner-title h3 {
     margin: -109% 2% !important;
@@ -755,5 +756,39 @@
   }
   .index-partner-tab {
     margin: 0 -8% !important;
+  }
+  h3.other-banner {
+    line-height: 57px !important;
+    text-align: left !important;
+    margin: -104% 0% !important;
+  }
+  h3.corporate-banner {
+    font-size: 46px;
+  }
+  h3.environment-banner {
+    font-size: 42px;
+  }
+  .other-services {
+    margin: 2% -2%;
+  }
+  h3.middle-banner-text {
+    margin: -65% 2% !important;
+  }
+  h3.middle-banner-text-1 {
+    margin: -65% 2% !important;
+    font-size: 44px;
+  }
+  h3.service-banner-text {
+    font-size: 44px;
+    color: #fff !important;
+  }
+  .banner-title-8 h3 {
+    display: block;
+    color: #fff;
+    margin: -108% 2%;
+    position: absolute;
+    font-size: 54px;
+    font-weight: 750;
+    text-align: initial;
   }
 }

@@ -1025,6 +1025,24 @@ function topFunction() {
 }
 </script>
 
+
+<script>
+  $("#btn_popUp").click(function (e)
+  {
+     HideDialog();
+     e.preventDefault();
+     sessionStorage["PopupShown"] = 'yes'; //Save in the sessionStorage if the modal has been shown
+  });
+</script>
+<script>
+  $(document).ready(function ()
+{
+     if(sessionStorage["PopupShown"] != 'yes'){ 
+         ShowDialog(true);
+         e.preventDefault();
+     }
+});
+</script>
 <!-- <script>
 $(document).ready(function(){
 	$('#btn_popUp').click();

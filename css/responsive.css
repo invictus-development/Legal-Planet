@@ -729,4 +729,12 @@
     width: 100% !important;
     margin: 7% 0 !important;
   }
+  .banner-title-4 h3 {
+    margin: -109% 2% !important;
+    font-size: 53px;
+  }
+  .gray-prt {
+    width: 391px;
+    margin: 0 -16%;
+  }
 }

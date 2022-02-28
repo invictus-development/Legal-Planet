@@ -455,6 +455,7 @@
   }
   .page-heading1 span {
     font-size: 18px;
+    margin-top: 5%;
   }
   .page-heading1 {
     margin-bottom: 20px;
@@ -733,8 +734,26 @@
     margin: -109% 2% !important;
     font-size: 53px;
   }
+  .banner-title h3 {
+    margin: -109% 2% !important;
+    font-size: 53px;
+  }
+  .banner-title h4 {
+    margin: -76% 3%;
+    font-size: 32px;
+  }
+  .banner-title-3 h3 {
+    margin: -41% 7% !important;
+    font-size: 53px;
+  }
   .gray-prt {
     width: 391px;
     margin: 0 -16%;
+  }
+  .pro-text span {
+    font-size: 20px !important;
+  }
+  .index-partner-tab {
+    margin: 0 -8% !important;
   }
 }

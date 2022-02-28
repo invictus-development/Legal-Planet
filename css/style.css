@@ -619,7 +619,7 @@ a {
 }
 .pro-text p span {
   margin-top: 5px;
-  font-size: 14px;
+  font-size: 14px !important;
   color: #000;
   display: block;
   letter-spacing: unset;
@@ -1777,8 +1777,10 @@ padding: 10px 10px 15px;
   color: #f23434;
   margin: -27% 26%;
   font-weight: 600;
+  letter-spacing: 5px;
   z-index: 999;
   text-align: justify;
+  font-family: unset;
 }
 .banner-title h4 {
   margin: -10% 27%;
@@ -1793,9 +1795,11 @@ padding: 10px 10px 15px;
   font-size: 120px;
   color: #fff;
   margin: -26% 44%;
-  font-weight: 600;
+  font-weight: 750;
+  letter-spacing: 5px;
   z-index: 999;
   text-align: justify;
+  font-family: unset;
 }
 .banner-title-4 h3 {
   POSITION: ABSOLUTE;

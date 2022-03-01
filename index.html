@@ -1024,25 +1024,37 @@ function topFunction() {
         return false; 
 }
 </script>
-
-
 <script>
-  $("#btn_popUp").click(function (e)
+  var count=16; //the same number as in closing script
+  var counter=setInterval(timer, 1000); //1000 will  run it every 1 second
+  function timer()
   {
-     HideDialog();
-     e.preventDefault();
-     sessionStorage["PopupShown"] = 'yes'; //Save in the sessionStorage if the modal has been shown
-  });
-</script>
+  count=count-1;
+  if (count <= 0)
+  {
+  clearInterval(counter);
+  return;
+  }
+  document.getElementById("timer").innerHTML="Mă închid singur în "+ count + " sec"; // watch for spelling
+  }
+  </script>
+
 <script>
-  $(document).ready(function ()
-{
-     if(sessionStorage["PopupShown"] != 'yes'){ 
-         ShowDialog(true);
-         e.preventDefault();
-     }
-});
+  jQuery(document).ready(function () {
+  // Get saved data from sessionStorage
+  var visited = sessionStorage.getItem('visited');
+  setTimeout(function () {
+  if (visited !== "true") {
+  $('#btn_popUp').click();
+  sessionStorage.setItem('visited', "true"); // Save data to sessionStorage
+  }
+  }, 2000);
+  });
+  setTimeout(function() {
+  $('#btn_popUp').modal('hide');
+  }, 16000);
 </script>
+
 <!-- <script>
 $(document).ready(function(){
 	$('#btn_popUp').click();

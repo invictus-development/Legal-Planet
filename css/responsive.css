@@ -751,6 +751,10 @@
     width: 391px;
     margin: 0 -16%;
   }
+.test-img{
+    width: 350px !important;
+    margin-bottom: -10px;
+  }
   .pro-text span {
     font-size: 20px !important;
   }

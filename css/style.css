@@ -663,6 +663,11 @@ a {
   margin-bottom: 10px;
   width: 100%;
 }
+.test-img{
+  margin-left: -18px;
+  width: 320px !important;
+  height: 260px !important;
+}
 .pro-img img {
   overflow: hidden;
   width: 100%;

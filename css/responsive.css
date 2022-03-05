@@ -751,10 +751,6 @@
     width: 391px;
     margin: 0 -16%;
   }
-.test-img{
-    width: 350px !important;
-    margin-bottom: -10px;
-  }
   .pro-text span {
     font-size: 20px !important;
   }
@@ -773,7 +769,7 @@
     font-size: 42px;
   }
   .other-services {
-    margin: 2% -2%;
+    margin: -2% 20% 3% 28%;
   }
   h3.middle-banner-text {
     margin: -65% 2% !important;
@@ -794,5 +790,13 @@
     font-size: 54px;
     font-weight: 750;
     text-align: initial;
+  }
+  .logo-lp {
+    width: 80px !important;
+    height: 72px;
+    margin: -2% 2%;
+  }
+  .other-line {
+    margin: 2.4% 13% -3% 17% !important;
   }
 }

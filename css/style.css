@@ -663,11 +663,6 @@ a {
   margin-bottom: 10px;
   width: 100%;
 }
-.test-img{
-  margin-left: -18px;
-  width: 320px !important;
-  height: 260px !important;
-}
 .pro-img img {
   overflow: hidden;
   width: 100%;
@@ -1769,11 +1764,15 @@ padding: 10px 10px 15px;
   margin: 2% 5%;
 }
 .other-services {
-  float: right;
+  float: left;
   font-size: 20px;
+  border: 2px solid #ff00001f;
+  border-radius: 15px;
+  padding: 0.2% 2%;
+  background: #fff;
   font-weight: 600;
   color: #ff00009c;
-  margin: 2% -12%;
+  margin: 1.4% 37% 1.4% 45%;
 }
 .banner-title h3 {
   position: absolute;
@@ -1832,4 +1831,14 @@ padding: 10px 10px 15px;
 }
 .picless-section {
   margin: 3% 3%;
+}
+.logo-lp {
+  width: 80px;
+  height: 72px;
+  margin: -2% 18%;
+}
+.other-line {
+  border-top: 4px solid #f99c9c;
+    color: red;
+    margin: 3% 0% -3% 5%;
 }

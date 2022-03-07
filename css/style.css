@@ -150,7 +150,7 @@ a {
 .mainmenu {
   background: none;
     border: 0 solid;
-    margin: 0 !important;
+    margin: 10px !important;
     padding: 2%;
     /* padding-top: 33px; */
     z-index: 99;
@@ -1834,8 +1834,8 @@ padding: 10px 10px 15px;
   margin: 3% 3%;
 }
 .logo-lp {
-  width: 80px;
-  height: 72px;
+  width: 128px;
+  height: 120px;
   margin: -2% -8%;
 }
 .other-line {

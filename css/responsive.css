@@ -535,9 +535,13 @@
   .logo-text {
     font-size: 22px !important;
     padding: 0%;
-    width: 60%;
+    width: 44%;
     margin-top: -1%;
     display: flex;
+  }
+  .carousel-inner img{
+    /* object-fit: cover; */
+    /* overflow: hidden; */
   }
 }
 @media(max-width:415px) {
@@ -708,7 +712,7 @@
 @media only screen and (max-width: 480px) {
   .banner img {
     height: 400px !important;
-    width: unset;
+    width: 100%;
     max-width: unset !important;
   }
   .container {
@@ -737,11 +741,11 @@
     text-align: justify !important;
   }
   .banner-title h3 {
-    margin: -109% 2% !important;
+    margin: -90% 2% !important;
     font-size: 53px;
   }
   .banner-title h4 {
-    margin: -76% 3%;
+    margin: -57% 3%;
     font-size: 32px;
   }
   .banner-title-3 h3 {
@@ -795,7 +799,7 @@
   .logo-lp {
     width: 80px !important;
     height: 72px;
-    margin: -2% 15%;
+    margin: -2% -5%;
   }
   .other-line {
     margin: 2.4% 13% -3% 17% !important;

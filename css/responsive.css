@@ -535,8 +535,9 @@
   .logo-text {
     font-size: 22px !important;
     padding: 0%;
-    width: 44%;
+    width: 60%;
     margin-top: -1%;
+    display: flex;
   }
 }
 @media(max-width:415px) {
@@ -794,7 +795,7 @@
   .logo-lp {
     width: 80px !important;
     height: 72px;
-    margin: -2% 2%;
+    margin: -2% 15%;
   }
   .other-line {
     margin: 2.4% 13% -3% 17% !important;
